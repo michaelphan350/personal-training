@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col } from 'react-bootstrap';
 import "./workoutChecklist.scss";
 import React, {useState} from 'react';
+import Week1Radio from "./Week1";
 
 function WorkoutChecklist () {
 
@@ -19,7 +20,7 @@ function WorkoutChecklist () {
         <ThemeProvider
         breakpoints = {['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
         minBreakpoint = "xxs"
-    >
+        >
         <Container>
             <Row>
                 <Col className="weekDropdownContainer">
@@ -29,9 +30,7 @@ function WorkoutChecklist () {
                         <Dropdown.Item eventKey='option3'>Weeks 9-12</Dropdown.Item>
                     </DropdownButton>
                     {selectedOption === "option1" && (
-                        <div>
-                            <p>Hello</p>
-                        </div>
+                        <Week1Radio></Week1Radio>
                     )}
                     {selectedOption === "option2" && (
                         <div>
