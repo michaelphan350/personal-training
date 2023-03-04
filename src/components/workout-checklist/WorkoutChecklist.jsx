@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col } from 'react-bootstrap';
 import "./workoutChecklist.scss";
 import React, {useState} from 'react';
-import Week1Radio from "./Week1";
+import Week1Radio from "./Week1Radio";
 
 function WorkoutChecklist () {
 
