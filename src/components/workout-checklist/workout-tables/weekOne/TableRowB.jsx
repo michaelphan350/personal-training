@@ -53,18 +53,6 @@ function TableRowB(props) {
             3 Sets
           </label>
         </div>
-        <div>
-          <label>
-            <input
-              type="radio"
-              name={`selectedRowSets_${props.index}`}
-              value="option4"
-              checked={props.selectedOption === 'option4'}
-              onChange={() => handleOptionChange('option4')}
-            />
-            4 Sets
-          </label>
-        </div>
       </td>
       <td>
         <div>
@@ -76,7 +64,7 @@ function TableRowB(props) {
                 checked={props.selectedOption2 === 'option5'}
                 onChange={() => handleOptionChange2('option5')}
                 />
-                5 reps
+                6 reps
             </label>
         </div>
         <div>
@@ -88,7 +76,7 @@ function TableRowB(props) {
                 checked={props.selectedOption2 === 'option6'}
                 onChange={() => handleOptionChange2('option6')}
                 />
-                10 reps
+                8 reps
             </label>
         </div>
         <div>
@@ -100,7 +88,7 @@ function TableRowB(props) {
                 checked={props.selectedOption2 === 'option7'}
                 onChange={() => handleOptionChange2('option7')}
                 />
-                15 reps
+                10 reps
             </label>
         </div>
         <div>
@@ -112,7 +100,7 @@ function TableRowB(props) {
                 checked={props.selectedOption2 === 'option8'}
                 onChange={() => handleOptionChange2('option8')}
                 />
-                20 reps
+                12 reps
             </label>
         </div>
         <div>
