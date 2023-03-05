@@ -6,7 +6,7 @@ import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col } from 'react-bootstrap'
 import './navbar.scss';
-
+import DateTime from './DateTime'
 function Navbar() {
 
     const [theme, setTheme] = useState('dark');
@@ -36,6 +36,9 @@ function Navbar() {
                 </Col>
                 <Col lg={8}className="titleContainer">
                     <h1>Military Training Regimen</h1>
+                </Col>
+                <Col className="dateTime">
+                    <DateTime />
                 </Col>
                 {/* <Col lg={2} className="menuContainer">
                     <ul>
