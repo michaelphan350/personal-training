@@ -1,6 +1,6 @@
 const DataTableB = [
     { 
-        exercise: '1a. Squats', 
+        exercise: '1a. Goblet Squat', 
         warmUp: '2 sets, 10 reps each set', 
         recSets: ( 
             <>
@@ -11,7 +11,7 @@ const DataTableB = [
             ),
     },
     { 
-        exercise: '1b. Romanian Deadlift', 
+        exercise: '1b. Kettlebell Romanian Deadlift', 
         warmUp: '2 sets, 10 reps each set', 
         recSets: ( 
             <>
@@ -22,18 +22,7 @@ const DataTableB = [
             ),
     },
     { 
-        exercise: '2a. Dumbbell Bench Press', 
-        warmUp: '2 sets, 10 reps each set', 
-        recSets: ( 
-            <>
-            3 sets
-            <br />
-            8 reps
-            </> 
-            ),
-    },
-    { 
-        exercise: '2b. Barbell Row', 
+        exercise: '2a. Incline Dumbbell Bench Press', 
         warmUp: '2 sets, 10 reps each set', 
         recSets: ( 
             <>
@@ -44,7 +33,18 @@ const DataTableB = [
             ),
     },
     { 
-        exercise: '3a. Kettlebell Press', 
+        exercise: '2b. Kettlebell Row', 
+        warmUp: '2 sets, 10 reps each set', 
+        recSets: ( 
+            <>
+            3 sets
+            <br />
+            8 reps
+            </> 
+            ),
+    },
+    { 
+        exercise: '3a. Single Arm Kettle Bell Press', 
         warmUp: '', 
         recSets: ( 
             <>
@@ -55,7 +55,7 @@ const DataTableB = [
             ),
     },
     { 
-        exercise: '3b. Dumbbell Upright Row', 
+        exercise: '3b. Dumbbell Shrug', 
         warmUp: '', 
         recSets: ( 
             <>
@@ -66,7 +66,7 @@ const DataTableB = [
             ),
     },
     { 
-        exercise: '4. 1.5 mile run', 
+        exercise: '4. 2 mile run', 
         warmUp: '3 min. warm up', 
         recSets: 'Comfortable pace'
     },

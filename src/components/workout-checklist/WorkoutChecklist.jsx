@@ -7,6 +7,7 @@ import "./workoutChecklist.scss";
 import React, {useState} from 'react';
 import Week1Radio from "./Week1Radio";
 import Week2Radio from "./Week2Radio";
+import Week3Radio from "./Week3Radio";
 
 function WorkoutChecklist () {
 
@@ -37,9 +38,7 @@ function WorkoutChecklist () {
                         <Week2Radio></Week2Radio>
                     )}
                     {selectedOption === "option3" && (
-                        <div>
-                            <p>Welcome</p>
-                        </div>
+                        <Week3Radio/>
                     )}
                 </Col>
             </Row>

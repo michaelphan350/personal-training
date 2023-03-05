@@ -59,9 +59,9 @@ const DataTableB = [
         warmUp: '', 
         recSets: ( 
             <>
-            3-4 sets
+            3 sets
             <br />
-            10-20 reps
+            12 reps
             </> 
             ),
     },
