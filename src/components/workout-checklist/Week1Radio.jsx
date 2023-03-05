@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Col } from 'react-bootstrap';
 import { Form, InputGroup } from 'react-bootstrap';
 import React, { useState } from 'react';
-import MyTableA from './workout-tables/weekOne/MyTableA'
+import MyTableA from './workout-tables/weekOne/MyTableA';
+import './week1radio.scss';
 
 function Week1Radio() {
 

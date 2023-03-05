@@ -22,7 +22,7 @@ function WorkoutChecklist () {
         minBreakpoint = "xxs"
         >
         <Container>
-            <Row>
+            <Row className="weeksContainer">
                 <Col className="weekDropdownContainer">
                     <DropdownButton id='dropdown-basic-button' className="dropdownMenu" title={dropdownTitle} onSelect={handleSelect}>
                         <Dropdown.Item eventKey='option1'>Weeks 1-4</Dropdown.Item>
