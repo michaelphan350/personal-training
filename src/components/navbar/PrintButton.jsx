@@ -10,7 +10,7 @@ const PrintPDF = () => {
 
     return (
         <div className='printContainer'>
-            <Button id='print-btn' onClick={handleDownload}>Pring to PDF</Button>
+            <Button id='print-btn' onClick={handleDownload}>Save to PDF</Button>
         </div>
     )
 
