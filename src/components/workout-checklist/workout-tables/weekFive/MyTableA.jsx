@@ -64,7 +64,7 @@ function MyTableA() {
 
   return (
     <div  id='my-table' className='table-responsive'>
-        <table className='table dark'>
+        <table id='my-tableInputs' className='table'>
             <thead>
                 <tr>
                 <th>Exercise</th>
