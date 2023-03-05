@@ -8,8 +8,15 @@
     }
     #dropdown-basic-button {
         background-color: black;
+        color: white;
         font-weight: bold;
         border-color: white;
+    }
+    #print-btn {
+        background-color: black;
+        border-color: white;
+        color: white;
+        font-weight: bold;
     }
 }
 
@@ -23,6 +30,13 @@
     }
 
     #dropdown-basic-button {
+        background-color: salmon;
+        border-style: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    #print-btn {
         background-color: salmon;
         border-style: none;
         color: black;
@@ -90,4 +104,10 @@
         //     }
         // }
     }
+}
+
+.printContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }

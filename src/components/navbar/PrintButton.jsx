@@ -1,25 +1,16 @@
 import React from 'react';
-import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
+import './navbar.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 const PrintPDF = () => {
     const handleDownload = () => {
-        const fileName = prompt('Please Enter the name for your saved PDF:', 'workout.pdf');
-        if (fileName !== null) {
-            html2canvas(document.body).then(function(canvas) {
-                var imgData = canvas.toDataURL('image/png');
-                var doc = new jsPDF();
-                doc.addImage(imgData, 'PNG', 0, 0);
-                doc.save(fileName);
-            });
-        };
-    };
+        window.print();
+    }
 
     return (
-        <div>
-            <button onClick={handleDownload}>
-                Print to PDF
-            </button>
+        <div className='printContainer'>
+            <Button id='print-btn' onClick={handleDownload}>Pring to PDF</Button>
         </div>
     )
 
