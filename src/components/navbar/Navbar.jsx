@@ -37,12 +37,12 @@ function Navbar() {
                 <Col lg={8}className="titleContainer">
                     <h1>Military Training Regimen</h1>
                 </Col>
-                <Col lg={2} className="menuContainer">
+                {/* <Col lg={2} className="menuContainer">
                     <ul>
                         <li>About</li>
                         <li>Contacts</li>
                     </ul>
-                </Col>
+                </Col> */}
             </Row>
         </Container>
     </ThemeProvider>

@@ -6,6 +6,11 @@
         background-color: black;
         color: white;
     }
+    #dropdown-basic-button {
+        background-color: black;
+        font-weight: bold;
+        border-color: white;
+    }
 }
 
 .light {
@@ -17,13 +22,23 @@
         color: Black;
     }
 
+    #dropdown-basic-button {
+        background-color: salmon;
+        border-style: none;
+        color: black;
+        font-weight: bold;
+    }
+
 }
 .navbarContainer {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
     .navContentsContainer {
+        display: flex;
 
         .btnContainer {
             display: flex;
@@ -46,22 +61,26 @@
         .titleContainer {
             display: flex;
             justify-content: center;
-        }
 
-        ul {
-            display: flex;
-            flex-direction: column;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: 100%;
-            box-sizing: border-box;
-            justify-content: center;
-            align-items: flex-end;
-
-            li {
-                list-style: none;
+            h1 {
+                font-size: 35px;
             }
         }
+
+        // ul {
+        //     display: flex;
+        //     flex-direction: column;
+        //     padding: 0;
+        //     margin: 0;
+        //     width: 100%;
+        //     height: 100%;
+        //     box-sizing: border-box;
+        //     justify-content: center;
+        //     align-items: flex-end;
+
+        //     li {
+        //         list-style: none;
+        //     }
+        // }
     }
 }
