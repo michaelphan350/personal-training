@@ -6,6 +6,7 @@ import {Container, Row, Col } from 'react-bootstrap';
 import "./workoutChecklist.scss";
 import React, {useState} from 'react';
 import Week1Radio from "./Week1Radio";
+import Week2Radio from "./Week2Radio";
 
 function WorkoutChecklist () {
 
@@ -32,10 +33,8 @@ function WorkoutChecklist () {
                     {selectedOption === "option1" && (
                         <Week1Radio></Week1Radio>
                     )}
-                    {selectedOption === "option2" && (
-                        <div>
-                            <p>Goodbye</p>
-                        </div>
+                    {selectedOption === "option2" && ( 
+                        <Week2Radio></Week2Radio>
                     )}
                     {selectedOption === "option3" && (
                         <div>
