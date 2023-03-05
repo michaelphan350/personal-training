@@ -4,6 +4,7 @@ import {Container, Col } from 'react-bootstrap';
 import { Form, InputGroup } from 'react-bootstrap';
 import React, { useState } from 'react';
 import MyTableA from './workout-tables/weekOne/MyTableA';
+import MyTableB from './workout-tables/weekOne/MyTableB';
 import './week1radio.scss';
 
 function Week1Radio() {
@@ -45,9 +46,7 @@ function Week1Radio() {
                         <MyTableA/>
                     )}
                     {selectedRadio === 'option2' && (
-                        <div>
-                            <p>Goodbye</p>
-                        </div>
+                        <MyTableB/>
                     )}
                 </Form>
             </Col>
